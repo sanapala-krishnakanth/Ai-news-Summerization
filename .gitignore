@@ -1,14 +1,15 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-venv/
-env/
+# Environment variables and secrets
 .env
 
-# Jupyter Notebooks
-.ipynb_checkpoints
+# Python virtual environment
+.venv/
 
-# OS Files
-.DS_Store
-Thumbs.db
+# Python cache
+__pycache__/
+*.pyc
+
+# Database files
+*.db
+
+# Model cache
+.cache/
