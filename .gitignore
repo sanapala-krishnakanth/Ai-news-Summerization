@@ -1,15 +1,12 @@
 # Environment variables and secrets
 .env
+.env.*
+!.env.example
 
-# Python virtual environment
+# Python
 .venv/
-
-# Python cache
 __pycache__/
 *.pyc
 
-# Database files
+# Database
 *.db
-
-# Model cache
-.cache/
